@@ -36,28 +36,6 @@ Goal: To increase the Q value or Quality of action (Deep Q Learning)
 
 We will use Bellman Equation to update the Q value
 
-We will program the game using three classes
-
-Agent
--	Game
--	Model
-Training
--	State = get_state(game)
--	Action = get_move(state):
-o	Model.predict()
--	Reward, game_over, score = game.play_step(action)
--	New_state = get_state(game)
--	Remember
--	Model.train()
-Game (Pygame)
--	Play_step(action)
-o	Reward, game_over, score
-Model (PyTorch)
--	Linear_QNet(DQN)
-o	Model.predict(state)
-	Action
-
-
 Instructions to run:
 
 1)	Import the folder Snake_Game_AI from Github repo link and open all files with Pycharm IDE
