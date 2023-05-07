@@ -56,3 +56,10 @@ Model (PyTorch)
 -	Linear_QNet(DQN)
 o	Model.predict(state)
 	Action
+
+
+Instructions to run:
+
+1)	Import the folder Snake_Game_AI from Github repo link and open all files with Pycharm IDE
+2)	In your IDE Terminal, install the given libraries
+3)	Command “python agent.py” in IDE Terminal to run the game
